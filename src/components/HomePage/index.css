@@ -1,0 +1,95 @@
+@media screen and (max-width: 767px) {
+  .main-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .nav-bar {
+    width: 100%;
+    background-color: #f1f5f9;
+    padding: 5px;
+  }
+  .website-logo {
+    width: 200px;
+    margin-left: 100px;
+  }
+  .select-container {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #cbd5e1;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0.5;
+  }
+  .failure-img {
+    width: 500px;
+  }
+  .failure-main-heading {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #475569;
+  }
+  .failure-para {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #475569;
+  }
+  .retry-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #328af2;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .projects-container {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ul-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .project-card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .project-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .project-name {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
